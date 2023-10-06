@@ -1,10 +1,11 @@
-#include "client_functions.h"
 #include <arpa/inet.h>
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+
+#include "client_functions.h"
 
 int socket_cliente;
 struct sockaddr_in servidor_addr;
