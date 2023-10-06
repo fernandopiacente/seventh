@@ -1,6 +1,7 @@
-#include "client_functions.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+#include "client_functions.h"
 
 int main(int argc, char *argv[]) {
         if (argc != 3) {
