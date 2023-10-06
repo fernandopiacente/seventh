@@ -1,6 +1,7 @@
-#include "server_functions.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+#include "server_functions.h"
 
 int main(int argc, char *argv[]) {
         if (argc != 2) {
